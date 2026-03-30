@@ -1,0 +1,28 @@
+{
+  "name": "NTK_NNPTUDM_buoi-9",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "~1.4.4",
+    "dotenv": "^17.3.1",
+    "ejs": "~3.1.6",
+    "express": "~4.16.1",
+    "express-session": "^1.17.3",
+    "express-validator": "^7.3.1",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^7.0.0",
+    "morgan": "~1.9.1",
+    "multer": "^2.1.1",
+    "nodemailer": "^8.0.4",
+    "slugify": "^1.6.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
